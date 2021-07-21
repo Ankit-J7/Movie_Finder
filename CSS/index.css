@@ -1,0 +1,82 @@
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+    font-size: 20px;
+}
+.container{
+    text-align:center;
+    
+
+}
+input{
+    width:60%;
+    height:20px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 3px solid #2980b2;
+    
+}
+button{
+    width:100px;
+    height:35px;
+    padding:2px;
+    font-size: 17px;
+    background-color:#080c14f6 ;
+    
+    border-radius: 15px;
+    border: none;
+    color:white;
+    border: 3px solid #2b2599;
+
+}
+input:focus{
+    background-color: white;
+    outline: none;
+    border: 3px solid #0f5a85;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color:#1c186b ;
+    
+
+}
+#list{
+    margin:30px auto;
+    padding: 20px;
+    font-size: 17px;
+    width: 70%;
+    font-family: 'Arvo', serif;
+ 
+}
+
+img{
+    width:250px;
+    height:300px;
+    border: 3px solid black;
+    float:left;
+    margin:20px ;
+    padding: 5px;
+}
+
+#data{
+    border: 2px dashed black;
+    padding: 20px 10px;
+}
+#movie{
+    margin-left:320px ;
+}
